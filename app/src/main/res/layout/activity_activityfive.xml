@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2045A1"
+    tools:context=".Activityfive">
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health practioners:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+
+      />
+
+    <TextView
+        android:id="@+id/Editwritings"
+        android:layout_width="337dp"
+        android:layout_height="376dp"
+        android:text="Name:Zebideyo Amos\n
+                      Residence:Nyarubungo ward,Kagando townconcil\n
+                      Profession:Nurse with diploma\n
+                      Contact:0758603264\n
+                      What he says:This pandemic needs one to be more distancing from many people.\n
+                      Wearing a mask is the safest way to keep safe from COVID19 which has made\n
+                      Uganda has been one of the most affected region.\n
+
+                      Name:Arinaitwe Alvin\n
+                      Resindence:Kagando village\n
+                      Profession:Teacher with degree\n
+                      Contact:0786274123\n
+                      What he says:We still need everyone in our country,just know your worth \n
+                      and keep alive.Wash your hands,sanitize and follow guidelines."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
